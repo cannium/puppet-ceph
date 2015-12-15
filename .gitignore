@@ -1,0 +1,11 @@
+*.swp
+*~
+.project
+metadata.json
+spec/fixtures/modules/*
+pkg
+Gemfile.lock
+.bundle
+vendor
+.rspec_system
+Gemfile-rspec-system.lock

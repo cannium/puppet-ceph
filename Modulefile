@@ -1,0 +1,12 @@
+name    'stackforge-ceph'
+version '0.0.1'
+source  'https://github.com/stackforge/puppet-ceph'
+author  'Puppet Ceph community'
+license 'Apache License 2.0'
+summary 'Community Developed Ceph Module'
+description  'Puppet module to install and configure Ceph'
+project_page 'https://launchpad.net/puppet-ceph'
+
+dependency 'puppetlabs/inifile', '>=1.0.0 <2.0.0'
+dependency 'puppetlabs/stdlib', '>= 2.5.0'
+dependency 'puppetlabs/apt', '>= 1.4.0'
